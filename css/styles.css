@@ -1,0 +1,45 @@
+.contact-form {
+  background-color: aqua;
+  font-family: "SF Pro";
+  padding: 1rem;
+}
+
+.contact-form label {
+  color: mediumspringgreen;
+  font-size: 1.5rem;
+}
+
+.contact-form input {
+  border-radius: 50rem;
+  border-color: chocolate;
+  border-width: 3px;
+}
+
+.contact-form input:hover {
+  background-color: violet;
+}
+
+.contact-form input:focus {
+  background-color: red;
+}
+
+.contact-form input:required {
+  background: white url(../images/red_asterisk.png) no-repeat 98% center;
+}
+
+.contact-form input:focus:invalid {
+  background: white url(../images/invalid.png) no-repeat 98% center;
+}
+
+.contact-form input:valid {
+  background: white url(../images/valid.png) no-repeat 98% center;
+}
+
+.contact-form input:valid + .form-hint {
+  display: none;
+}
+
+.contact-form button {
+  display: flex;
+  margin: auto;
+}
